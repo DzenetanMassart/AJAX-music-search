@@ -1,0 +1,14 @@
+html { -webkit-box-sizing: border-box; box-sizing: border-box; font-size: 62.5%; }
+
+*, *:before, *:after { -webkit-box-sizing: inherit; box-sizing: inherit; }
+
+body { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; height: 100%; font-family: sans-serif; background-color: #363640; }
+
+h1 { color: #ffffff; }
+
+input[type="search"] { width: 100%; height: 5.6rem; padding: 0 1.2rem; outline: none; border: none; border-radius: 5px 5px 0 0; background-color: rgba(255, 255, 255, 0.04); font-size: 2rem; text-align: center; color: #4CAF50; position: absolute; top: 50%; left: 0; -webkit-transition: 0.5s background-color; transition: 0.5s background-color; }
+
+input[type="search"]:focus { background-color: rgba(255, 255, 255, 0.116); }
+
+datalist { width: 100%; }
+/*# sourceMappingURL=style.css.map */
